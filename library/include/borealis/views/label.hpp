@@ -89,6 +89,7 @@ class Label : public View
     void setTextColor(NVGcolor color);
 
     int getFont();
+    void setFont(int newFont);
     float getFontSize();
     float getLineHeight();
 

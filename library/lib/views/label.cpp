@@ -542,6 +542,12 @@ int Label::getFont()
     return this->font;
 }
 
+void Label::setFont(int newFont)
+{
+    this->font = newFont;
+    this->invalidate();
+}
+
 float Label::getFontSize()
 {
     return this->fontSize;
